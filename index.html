@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- slick slider  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+  </head>
+
+  <body>   
+    <!-- right -->
+    <div id="mySidenav1" class="sidenav1">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()"
+        >&times;</a
+      >
+      <a href=""> Home page </a>
+      <a href=""> About us </a>
+      <a href=""> News </a>
+      <a href=""> Media Gallery </a>
+      <a href=""> Document Library </a>
+      <a href=""> Organizational Structure </a>
+      <a href=""> E-Services </a>
+      <a href=""> General Services </a>
+    </div>
+    <!-- right end -->
+    <div class="main-container">
+      <div class="main-inner-container">
+        
+        <header>
+          <div class="header-main">
+            <div class="header-inner">
+              <div class="header-right">
+                <div class="header-rInner">
+                  <nav>
+                    <ul>
+                      <li><a href=""> Home </a></li>
+                      <li><a href=""> Matter Management </a></li>
+                      <li><a href=""> Closed Matter </a></li>
+                      <li><a href=""> Know How </a></li>
+                      <li><a href=""> Search Know How </a></li>
+                      <li><a href=""> Marketing </a></li>
+                      <li><a href=""> Management </a></li>
+                      <li><a href=""> Admin and HR </a></li>
+                      <li><a href=""> Finance </a></li>
+                      <li><a href=""> Reports </a></li>
+                      <li><a href=""> RMS </a></li>
+                    </ul>
+                    <ul class="mobile-nav">
+                      <li onclick="openNav1()">
+                        <i class="fa-solid fa-bars"></i>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- header End -->
+        <!-- Banner -->
+        <div class="banner-container">
+          <div class="banner-inner">
+            <div class="banner-slider-container">
+              <div class="banner-slider">
+                <div class="banner-sitem">
+                  <div class="banner-quote">
+                    "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis consequatur asperiores totam doloribus quo laboriosam
+                    officiis ratione voluptatem? Quia, animi!"
+                  </div>
+                  <div class="banner-quoter">- Lorem Epsum</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Banner End -->
+        <!-- divs container -->
+        <div class="divs-main">
+          <div class="divs-inner">
+            <div>
+              <div class="block">
+                <div class="block-header">
+                  <div class="block-heading" style="font-weight: 600">
+                    Deal Annoucement
+                  </div>
+                  <div>All <i class="fa-solid fa-arrow-right-long"></i></div>
+                </div>
+                <div class="block-content" style="margin-top: 0">
+                  <div id="calendar" class="month-div"></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="block">
+                <div
+                  class="block-header"
+                  style="border-bottom: 1px solid rgb(184, 184, 184)"
+                >
+                  <div class="block-heading" style="font-weight: 600">
+                    Firm Policies
+                  </div>
+                  <div>All <i class="fa-solid fa-arrow-right-long"></i></div>
+                </div>
+                <div class="block-content">
+                  <div class="doc-container">
+                    <ul>
+                      <li>
+                        <div>
+                          <i class="fa-regular fa-file-word"></i> Policy 1
+                        </div>
+                        <i class="fa-solid fa-download"></i>
+                      </li>
+                      <li>
+                        <div>
+                          <i class="fa-regular fa-file-word"></i> Policy 2
+                        </div>
+                        <i class="fa-solid fa-download"></i>
+                      </li>
+                      <li>
+                        <div>
+                          <i class="fa-regular fa-file-word"></i> Policy 3
+                        </div>
+                        <i class="fa-solid fa-download"></i>
+                      </li>
+                      <li>
+                        <div>
+                          <i class="fa-regular fa-file-word"></i> Policy 4
+                        </div>
+                        <i class="fa-solid fa-download"></i>
+                      </li>
+                      <li>
+                        <div>
+                          <i class="fa-regular fa-file-word"></i> Policy 5
+                        </div>
+                        <i class="fa-solid fa-download"></i>
+                      </li>
+                      <li>
+                        <div>
+                          <i class="fa-regular fa-file-word"></i> Policy 6
+                        </div>
+                        <i class="fa-solid fa-download"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="block">
+                <div
+                  class="block-header"
+                  style="border-bottom: 1px solid rgb(184, 184, 184)"
+                >
+                  <div class="block-heading na" style="font-weight: 600">
+                    Holiday List
+                  </div>
+                </div>
+                <div class="block-content">
+                  <ul class="holiday-list">
+                    <li>
+                      <div>
+                        <div class="outer-circle">
+                          <div class="h-month">sept</div>
+                          <div class="h-date">17</div>
+                        </div>
+                        <div class="e-outer">
+                          <span>Event</span>
+                          <span>Eid-E-Milad</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="outer-circle">
+                          <div class="h-month">oct</div>
+                          <div class="h-date">2</div>
+                        </div>
+                        <div class="e-outer">
+                          <span>Event</span>
+                          <span>Gandhi jayanti</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="outer-circle">
+                          <div class="h-month">oct</div>
+                          <div class="h-date">12</div>
+                        </div>
+                        <div class="e-outer">
+                          <span>Event</span>
+                          <span>dussehra</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="outer-circle">
+                          <div class="h-month">nov</div>
+                          <div class="h-date">1</div>
+                        </div>
+                        <div class="e-outer">
+                          <span>Event</span>
+                          <span>Lakshmi Pujan</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="outer-circle">
+                          <div class="h-month">nov</div>
+                          <div class="h-date">2</div>
+                        </div>
+                        <div class="e-outer">
+                          <span>Event</span>
+                          <span>Dipawali</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="block">
+                <div
+                  class="block-header"
+                  style="border-bottom: 1px solid rgb(184, 184, 184)"
+                >
+                  <div class="block-heading" style="font-weight: 600">
+                    Profiles
+                  </div>
+                  <div>All <i class="fa-solid fa-arrow-right-long"></i></div>
+                </div>
+                <div class="block-content">
+                  <div class="bday-slider-container">
+                    <div class="bday-slider">
+                      <div>
+                        <div class="p-prof">
+                          <div class="icon">
+                            <img
+                              src="./istockphoto-1386479313-612x612.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div>
+                            <div class="pr-name">Mazen Abdullah</div>
+                            <div class="pr-role">Business Analyst</div>
+                          </div>
+                        </div>
+                        <div class="b-date">
+                          <i class="fa-regular fa-calendar-days"></i>
+                          July 16, 2024
+                        </div>
+                        <div class="bday-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Tenetur, consequuntur doloremque. Laboriosam
+                          dolorum a, quo quia corrupti mollitia veritatis
+                          perferendis!
+                        </div>
+                        <div class="bday-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Tenetur, consequuntur doloremque. Laboriosam
+                          dolorum a, quo quia corrupti mollitia veritatis
+                          perferendis!
+                        </div>
+                      </div>
+                      <div>
+                        <div class="p-prof">
+                          <div class="icon">
+                            <img
+                              src="./istockphoto-1386479313-612x612.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div>
+                            <div class="pr-name">Mazen Abdullah</div>
+                            <div class="pr-role">Business Analyst</div>
+                          </div>
+                        </div>
+                        <div class="b-date">
+                          <i class="fa-regular fa-calendar-days"></i>
+                          July 16, 2024
+                        </div>
+                        <div class="bday-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Tenetur, consequuntur doloremque. Laboriosam
+                          dolorum a, quo quia corrupti mollitia veritatis
+                          perferendis!
+                        </div>
+                        <div class="bday-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Tenetur, consequuntur doloremque. Laboriosam
+                          dolorum a, quo quia corrupti mollitia veritatis
+                          perferendis!
+                        </div>
+                      </div>
+                      <div>
+                        <div class="p-prof">
+                          <div class="icon">
+                            <img
+                              src="./istockphoto-1386479313-612x612.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div>
+                            <div class="pr-name">Mazen Abdullah</div>
+                            <div class="pr-role">Business Analyst</div>
+                          </div>
+                        </div>
+                        <div class="b-date">
+                          <i class="fa-regular fa-calendar-days"></i>
+                          July 16, 2024
+                        </div>
+                        <div class="bday-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Tenetur, consequuntur doloremque. Laboriosam
+                          dolorum a, quo quia corrupti mollitia veritatis
+                          perferendis!
+                        </div>
+                        <div class="bday-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Tenetur, consequuntur doloremque. Laboriosam
+                          dolorum a, quo quia corrupti mollitia veritatis
+                          perferendis!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="block">
+                <div
+                  class="block-header"
+                  style="border-bottom: 1px solid rgb(184, 184, 184)"
+                >
+                  <div class="block-heading" style="font-weight: 600">
+                    Teams
+                  </div>
+                  <div>All <i class="fa-solid fa-arrow-right-long"></i></div>
+                </div>
+                <div class="block-content">
+                  <ul class="new-emp">
+                    <li>
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <span>Business Analyst</span
+                            ><span>Joined on: July 16, 2024</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <span>Business Analyst</span
+                            ><span>Joined on: July 16, 2024</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <span>Business Analyst</span
+                            ><span>Joined on: July 16, 2024</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <span>Business Analyst</span
+                            ><span>Joined on: July 16, 2024</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <span>Business Analyst</span
+                            ><span>Joined on: July 16, 2024</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="block">
+                <div
+                  class="block-header"
+                  style="border-bottom: 1px solid rgb(184, 184, 184)"
+                >
+                  <div class="block-heading na" style="font-weight: 600">
+                    Birthdays
+                  </div>
+                </div>
+                <div class="block-content" style="overflow-y: hidden">
+                  <div class="birthday-slider">
+                    <div class="birthday-slide-item">
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <i class="fa-regular fa-calendar-days"></i>July 16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="birthday-slide-item">
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <i class="fa-regular fa-calendar-days"></i>July 16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="birthday-slide-item">
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <i class="fa-regular fa-calendar-days"></i>July 16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="birthday-slide-item">
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <i class="fa-regular fa-calendar-days"></i>July 16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="birthday-slide-item">
+                      <div>
+                        <img
+                          src="./istockphoto-1386479313-612x612.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div>
+                          <div class="pr-name">Mazen Abdullah</div>
+                          <div class="pr-role">
+                            <i class="fa-regular fa-calendar-days"></i>July 16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blue-background"></div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".bday-slider").slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2000,
+          dots: true,
+          arrows: false,
+        });
+
+        $(".birthday-slider").slick({
+          vertical: true,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          verticalSwiping: true,
+          arrows: false,
+          dots: false,
+          slidesToShow: 4,
+        });
+      });
+
+      function openNav1() {
+        document.getElementById("mySidenav1").style.width = "250px";
+      }
+
+      function closeNav1() {
+        document.getElementById("mySidenav1").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
